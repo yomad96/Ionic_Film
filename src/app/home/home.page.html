@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">
+      Recherche
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar animated="true" placeholder="Rechercher un film ou une série" [(ngModel)]="mon_filtre"></ion-searchbar>
+  <ion-button [disabled]="!mon_filtre" expand="block" size="large" (click)="changePage('/films','movie', mon_filtre)">Film</ion-button>
+  <ion-button [disabled]="!mon_filtre" expand="block" size="large" (click)="changePage('/series','series', mon_filtre)">Série</ion-button>
+</ion-content>

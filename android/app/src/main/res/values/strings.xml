@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">discoFilm</string>
+    <string name="title_activity_main">discoFilm</string>
+    <string name="package_name">com.discoFilm.app</string>
+    <string name="custom_url_scheme">com.discoFilm.app</string>
+</resources>
